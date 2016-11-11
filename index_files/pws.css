@@ -1,0 +1,154 @@
+html, body{
+    font-family: Avenir Next, Lato, sans-serif;
+    font-size: 16px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+	font-weight: 500;
+}
+
+a:hover{
+    color: #404040;
+    text-decoration: none;
+}
+
+a.wrapper{
+	color: inherit;
+	font-weight: inherit;
+}
+
+b, strong{
+	font-weight: 500;
+}
+
+
+div.linkbutton{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: none;
+    padding: 8px 16px;
+    transition: 0.2s linear;
+    font-weight: 500;
+}
+
+div.linkbutton:hover{
+    background-color: #f7f7f7;
+}
+
+
+h1, h2, h3{
+	font-weight: 500;
+	margin-bottom: 0;
+}
+
+p{
+	margin: 1em 60px;
+	line-height: 1.5em;
+}
+
+table {
+	margin: auto;
+}
+
+td.form-category{
+	font-weight: 500;
+}
+
+
+.small{
+	font-size: 75%;
+}
+
+
+#container{
+    max-width: 720px;
+    padding: 20px;
+    margin: auto;
+}
+
+
+#header{
+    padding: 28px;
+    text-align: center;
+}
+
+#header h1{
+    font-family: Inconsolata, monospace;
+    line-height: 1em;
+    font-size: 3em;
+    font-weight: 600;
+    margin: 0;
+}
+
+#header p.subtitle{
+    margin: 0;
+}
+
+
+
+#linkbar{
+    width: 100%;
+    text-align: center;
+	margin-top: 20px;
+}
+
+#footer p.footer-notice{
+    font-size: 0.75em;
+    text-align: center;
+}
+
+
+
+/* special properties */
+
+ul.game_list{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+li.game_banner{
+	display: block;
+	max-width: 720px;
+	height: 180px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 8px;
+	margin: 16px 0px;
+}
+
+a li.game_banner .description{
+	display: block;
+	height: 360px;
+	padding: 4px 16px;
+	background-color: rgba(255, 255, 255, 0.85);
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	transition: 0.2s;
+}
+
+li.game_banner .description h2{
+	font-family: Inconsolata, monospace;
+	margin: 0.6ex 0;
+	font-weight: bold;
+}
+
+li.game_banner .description h2 .game-date{
+	display: inline-block;
+	font-size: 12pt;
+	font-weight: normal;
+	margin-left: 8px;
+}
+
+li.game_banner .description p{
+	margin: 0.6ex 0.1em;
+	line-height: 1.4em;
+}
+
+a:hover li.game_banner .description{
+	top: 20%;
+}
