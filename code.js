@@ -1,5 +1,4 @@
 var self = this;
-var current = self;
 function Intro(msg)
 {
   this.msg = msg;
