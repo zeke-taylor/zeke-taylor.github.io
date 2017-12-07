@@ -16,6 +16,8 @@ h1, h2, h3{
 h2{
 	color:purple;
 	background-color:green;
+	border:25px;
+	border-left:2px outset red;
 }
 p{
 	margin: 1em 60px;
