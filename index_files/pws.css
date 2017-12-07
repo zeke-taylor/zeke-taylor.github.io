@@ -14,10 +14,10 @@ h1, h2, h3{
 	margin-bottom: 0;
 }
 h2{
-	color:purple;
-	background-color:green;
-	border-radius:25px;
-	border-left:2px outset red;
+	color: purple;
+	background-color: green;
+	border-radius: 25px;
+	border-left: 2px outset red;
 }
 p{
 	margin: 1em 60px;
