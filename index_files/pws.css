@@ -37,7 +37,10 @@ p{
     padding: 28px;
     text-align: center;
 }
-
+table{
+	width:500px;
+	height:500px;
+}
 #header h1{
     font-family: Inconsolata, monospace;
     line-height: 1em;
