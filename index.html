@@ -3,6 +3,9 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Zeke Taylor</title>
+	     <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+         rel = "stylesheet">
+
     <link rel="stylesheet" type="text/css" href="./index_files/pws.css">
 	  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
   <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
@@ -40,6 +43,7 @@ and on this website i post about my life and i post my youtube videos and more i
 	</tr>
 	</table>
 	<img src='maxresdefault.png' title='foot' id='foot'/>
+	<button id='opener'></button>
 </div>
 
 <div id="footer">
@@ -71,8 +75,12 @@ and on this website i post about my life and i post my youtube videos and more i
 	</script>
 	<script>
 		$(function(){
-			$("foot").dialog();
-			
+	 $( "#foot" ).dialog({
+               autoOpen: false,  
+            });
+            $( "#opener" ).click(function() {
+               $( "foot" ).dialog( "open" );
+            });
 		});
 	</script>
 	
