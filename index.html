@@ -73,13 +73,15 @@ and on this website i post about my life and i post my youtube videos and more i
 	};
 	document.write(crappy.toWord());
 	</script>
-	<script>
+	<script type='text/javascript'>
 		$(function(){
 	
               var foot = $("foot");
+			var opener = document.getElementById("opener");
+			opener.addEventListerner("click",function(){
 			foot.style.display = "block";
                $( "foot" ).dialog();
-            
+			};
 		});
 	</script>
 	
