@@ -12,5 +12,6 @@ if (elem.requestFullscreen) {
   elem.requestFullscreen();
 }
 this.ip_addresses = ["192.903.464","760-z43"];
-window.onbeforeunload = "Are you sure you want to leave?";
-window.onbeforeunload = null;
+function myFunction() {
+    return "Are sure you really want to exit ?";
+}
