@@ -7,6 +7,6 @@ window.open("");
 }
 };
 if(this.tv=="Hell.Tab"){
-alert("You have choosen the maroon death tab!:WARNING THIS IS VERY DANGEROUS");
+return true;
 }
 };
