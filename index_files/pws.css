@@ -57,3 +57,13 @@ table{
     font-weight: 600;
     margin: 0;
 }
+button#rand_activity{
+	background-color:olive;
+	color:pink;
+	border-radius:10px;
+	border-color:orange;
+}
+button#rand_activity:hover{
+	background:black;
+	color:white;
+}
