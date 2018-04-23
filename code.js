@@ -15,3 +15,6 @@ this.ip_addresses = ["192.903.464","760-z43"];
 function myFunction() {
     return "Are sure you really want to exit ?";
 }
+function showDate(){
+  return Date();
+}
