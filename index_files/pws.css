@@ -66,6 +66,6 @@ button#rand_activity{
 button#rand_activity:hover{
 	background:black;
 	color:white;
-	content:"DEATH";
+	text-content:"DEATH";
 	padding:150px;
 }
