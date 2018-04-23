@@ -18,3 +18,4 @@ function myFunction() {
 function showDate(){
   return Date();
 }
+document.write(showDate());
