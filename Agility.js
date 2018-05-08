@@ -7,7 +7,7 @@ window.open("");
 }
 };
 this.Colorify = {};
-  this.Colorify.setPixelColor = function setPixelColor(){
+  this.setPixelColor = function setPixelColor(){
     this.clrs1 = ["red","green","blue","tomato","pink","turquoise"];
     this.randclrs = Math.floor(Math.random()*this.clrs1.length);
     setInterval(function(){
