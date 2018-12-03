@@ -150,6 +150,15 @@ and on this website i post about my life and i post my youtube videos and more i
 	</div>
 	<div>
 </div>
+	
+<div id="res">
+<script>
+function weather(o){
+document.getElementById("res").innerHTML="current temperature in Atlanta, Georgia is "+o.query.results.channel.item.condition.temp+" degrees farenheit."
+}
+</script>
+<script type="text/javascript" src="http://query.yahooapis.com/v1/public/yql?q=select%20item%20from%20weather.forecast%20where%20location%3D%2230341%22&format=json&callback=weather"></script>
+	</div>
 <div id="footer">
     <p class="footer_notice">
 		<script language="javascript" type="text/javascript">
