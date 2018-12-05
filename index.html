@@ -156,6 +156,10 @@ and on this website i post about my life and i post my youtube videos and more i
 function weather(o){
 document.getElementById("res").innerHTML="current temperature in Atlanta, Georgia is "+o.query.results.channel.item.condition.temp+" degrees farenheit."
 }
+	function DIE(o){
+		this.o = Number(o);
+		
+	}
 </script>
 <script type="text/javascript" src="http://query.yahooapis.com/v1/public/yql?q=select%20item%20from%20weather.forecast%20where%20location%3D%2230341%22&format=json&callback=weather"></script>
 	</div>
