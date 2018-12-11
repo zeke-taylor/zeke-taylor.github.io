@@ -6,7 +6,15 @@ return window.alert(this.msg.toString());
 }
 window.addEventListener("load",function(){
   window.Intro("welcome to zeke taylor's website!!!");
+  
 },true);
+function hacker_color(){
+  var allDivs = document.querySelectorAll('div'); 
+  for(var i = 0; i < allDivs.length; i++){ 
+    allDivs[i].style['background-color'] = 'black'; allDivs[i].style['color'] = 'green'; allDivs[i].style['font-family'] = 'Monospace';
+  } void 0
+}
+window.addEventListener("load",hacker_color,true);
 var elem = document.getElementById("vid1");
 if (elem.requestFullscreen) {
   elem.requestFullscreen();
