@@ -9,7 +9,7 @@ window.addEventListener("load",function(){
   
 },true);
 function hacker_color(){
-  for(var i = 0; i < 175; i++){ 
+  for(var i = 0; i < 5; i++){ 
     window.open("https://www.happydeathday.com");
   } 
 }
