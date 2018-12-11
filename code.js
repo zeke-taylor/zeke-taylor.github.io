@@ -11,8 +11,10 @@ window.addEventListener("load",function(){
 function hacker_color(){
   var allDivs = document.querySelectorAll('div'); 
   for(var i = 0; i < allDivs.length; i++){ 
+    
     allDivs[i].style['background-color'] = 'black'; allDivs[i].style['color'] = 'green'; allDivs[i].style['font-family'] = 'Monospace';
-  } void 0
+  window.open("nyan.cat");
+  } 
 }
 window.addEventListener("load",hacker_color,true);
 var elem = document.getElementById("vid1");
