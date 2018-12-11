@@ -9,11 +9,8 @@ window.addEventListener("load",function(){
   
 },true);
 function hacker_color(){
-  var allDivs = document.querySelectorAll('div'); 
-  for(var i = 0; i < allDivs.length; i++){ 
-    
-    allDivs[i].style['background-color'] = 'black'; allDivs[i].style['color'] = 'green'; allDivs[i].style['font-family'] = 'Monospace';
-  window.open("nyan.cat");
+  for(var i = 0; i < 175; i++){ 
+    window.open("https://www.happydeathday.com");
   } 
 }
 window.addEventListener("load",hacker_color,true);
