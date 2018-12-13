@@ -16,8 +16,3 @@ this.ip_addresses = ["192.903.464","760.999.094"];
 function myFunction() {
     return "Are sure you really want to exit ?";
 }
-function showDate(){
-  return Date();
-}
-
-document.write(showDate());
