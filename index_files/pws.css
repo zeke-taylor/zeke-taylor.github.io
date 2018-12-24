@@ -7,6 +7,12 @@
 	padding:20px;
 	
 }
+.navigation_bar {
+	background-color:violet;
+	padding:0.3px;
+	color: #f5b041;
+	font-weight: bold;
+}
    .ui-widget-header,.ui-state-default, ui-button {
             background:#b9cd6d;
             border: 1px solid #b9cd6d;
