@@ -73,7 +73,7 @@ function findInPage(str) {
 }
 </script>
 
-<form name=search onsubmit="return findInPage(this.value);">
+<form name=search id="search" onsubmit="return findInPage(this.value);">
 <p align=center><FONT size=3>
 <input
 style="BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #666666 1px solid; BORDER-BOTTOM: #666666 1px solid" 
@@ -90,15 +90,15 @@ onchange="n = 0;" size=16 name=string></font><br><input style="BORDER-RIGHT: #ff
 <div id="header">
 	<h1 id="m_htext">Zeke Taylor</h1>
 	<div id="navigation_bar">
-		<span class="home0_">Home</span>
-		<span class="search0_">Search</span>
+		<span class="home0_"><a href="#content">Home</a></span>
+		<span class="search0_"><a href="#search">Search</a></span>
 		<span class="about0_"><a href="about.html">About</a></span>
-		<span class="blog0_">Blog</span>
-		<span class="videos0_">Videos</span>
-		<span class="projects0_">Projects</span>
-		<span class="miscp0_">Miscellaneous</span>
-		<span class="footer0_">Bottom</span>
-		<span class="contact0_">Contact</span>
+		<span class="blog0_"><a href="#Blog">Blog</a></span>
+		<span class="videos0_"><a href="https://www.youtube.com/channel/UCjPZXIvvUtPe39TOlX9Gu7w?view_as=subscriber">Videos</a></span>
+		<span class="projects0_"><a href="#projects">Projects</a></span>
+		<span class="miscp0_"><a href="#misc_">Miscellaneous</a></span>
+		<span class="footer0_"><a href="#footer">Bottom</a></span>
+		<span class="contact0_"><a href="mailto:etaylor0234@gmail.com">Contact</a></span>
 	</div>
 </div>
 
