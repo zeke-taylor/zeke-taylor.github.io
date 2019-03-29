@@ -1,17 +1,12 @@
-<machine id="deskpro386" type="pcx86" border="1" pos="center" background="default">
-	<name pos="center">COMPAQ DeskPro 386, 4Mb RAM, IBM VGA</name>
-	<computer id="deskpro386-vga-4096k" name="COMPAQ DeskPro 386" buswidth="32"></computer>
-	<cpu id="cpu386" model="80386"></cpu>
-	<ram id="ramLow" addr="0x00000" test="false" size="0xa0000" comment="ROM BIOS memory test has been disabled"></ram>
-	<ram id="ramCPQ" addr="0xfa0000" size="0x60000" comment="COMPAQ memory at 0xFA0000"></ram>
-	<ram id="ramExt" addr="0x100000" size="0x300000" comment="Extended memory at 0x100000"></ram>
-	<rom id="romBIOS" addr="0xf8000" size="0x8000" alias="[0xf0000,0xffff0000,0xffff8000]" file="/devices/pcx86/rom/compaq/deskpro386/1988-01-28/1988-01-28.json"></rom>
-	<video ref="/devices/pcx86/video/ibm/vga/1986-10-27/ibm-vga-autolockfs.xml"></video>
-	<fdc ref="/disks/pcx86/library.xml" autoMount="{A: {name: "PC DOS 3.30 (Disk 1)"}, B: {name: "PC DOS 3.30 (Disk 2)"}}"></fdc>
-	<hdc ref="/disks/pcx86/drives/47mb/unformatted-at5.xml"></hdc>
-	<keyboard ref="/devices/pcx86/keyboard/us84-softkeys.xml"></keyboard>
-	<chipset id="chipset" model="deskpro386" floppies="[1200,1200]" monitor="vga"></chipset>
-	<serial id="com1" adapter="1"></serial>
-	<serial id="com2" adapter="2"></serial>
-	<mouse serial="com1"></mouse>
+<machine id="ibm" class="pc" width="720px">
+    <computer id="pc" name="IBM PC"/>
+    <cpu id="cpu8088" model="8088"/>
+    <ram id="ramLow" addr="0x00000" size="0x04000"/>
+    <rom id="romBASIC" addr="0xf6000" size="0x8000" file="ibm-basic-1.00.json"/>
+    <rom id="romBIOS" addr="0xfe000" size="0x2000" file="1981-04-24.json"/>
+    <keyboard id="keyboard"/>
+    <video id="videoMDA" model="mda" screenwidth="720" screenheight="350" charset="ibm-mda-cga.json">
+        <name>Monochrome Display</name>
+    </video>
+    <chipset id="chipset" model="5150" sw1="01000001" sw2="11110000"/>
 </machine>
