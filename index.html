@@ -32,65 +32,6 @@
 	</style>
 </head>
 <body>
-<script language=JavaScript>
-	//For ~~~~~only. windows/linux/opera/IE versions 4.1/9+.
-	//Doesn't work for Chrome/Firefox/Safari/JWebia/ any other related browsers.
-	//Javascript/Livescript/Ecmascript(Babelscript&Typescript) alternative Jwebiascript Search Engine coming soon!!
-var NS4 = document.layers; 
-var IE4 = document.all;
-var win = window;    
-var n   = 0;
-function findInPage(str) {
-  var txt, i, found;
-  if (str == "")
-    return false;
-  if (NS4) {
-    if (!win.find(str))
-      while(win.find(str, false, true))
-        n++;
-    else
-      n++;
-    if (n == 0)
-      alert("Not found.");
-  }
-  if (IE4) {
-    txt = win.document.body.createTextRange();
-    for (i = 0; i <= n && (found = txt.findText(str)) != false; i++) {
-      txt.moveStart("character", 1);
-      txt.moveEnd("textedit");
-    }
-    if (found) {
-      txt.moveStart("character", -1);
-      txt.findText(str);
-      txt.select();
-      txt.scrollIntoView();
-      n++;
-    }
-    else {
-      if (n > 0) {
-        n = 0;
-        findInPage(str);
-      }
-      else
-        alert("Sorry, we couldn't find.Try again");
-   }
-  }
-  return false;
-}
-</script>
-
-<form name=search id="search" onsubmit="return findInPage(this.value);">
-<p align=center><FONT size=3>
-<input
-style="BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #666666 1px solid; BORDER-BOTTOM: #666666 1px solid" 
-onchange="n = 0;" size=16 name=string></font><br><input style="BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #ffffff 1px solid; BORDER-BOTTOM: #ffffff 1px solid; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #aaaaaa" type=submit value=Search in page ><center><font size=2pt;><font family=Times New Roman;><b>
-
-
-
-<br> 
-</p></form></div><br><!-- /Search-->
-
-
 <div id="container">
 <a href="http://www.reliablecounter.com" target="_blank"><img src="http://www.reliablecounter.com/count.php?page=zeke-taylor.github.io&digit=style/plain/16/&reloads=0" alt="" title="" border="0"></a><br /><a href="http://www.cuerpoaldente.com/caritas-tristes/" target="_blank" style="font-family: Geneva, Arial; font-size: 9px; color: #330010; text-decoration: none;">caritas tristes</a>
 <div id="header">
@@ -107,7 +48,7 @@ onchange="n = 0;" size=16 name=string></font><br><input style="BORDER-RIGHT: #ff
 		<span class="contact0_"><a href="mailto:etaylor0234@gmail.com">Contact</a></span>
 		<span class="job_0"><a href="https://zphonesoftware.business.site/">My company</a></span>
 	</div>
-	Actor/Software Engineer/Middle School Student ♑Capricorn♑ Youtube:<a href="https://www.youtube.com/channel/UCjPZXIvvUtPe39TOlX9Gu7w">Nichezeke</a> Goal: 1000
+	Actor/Online Personality/Software Engineer ♑Capricorn♑ Youtube:<a href="https://www.youtube.com/channel/UCjPZXIvvUtPe39TOlX9Gu7w">Nichezeke</a>
 </div>
 
 <div id="content">
@@ -115,8 +56,7 @@ onchange="n = 0;" size=16 name=string></font><br><input style="BORDER-RIGHT: #ff
 <p>My name is Zeke Taylor.</p>
 	<h2>About</h2>
 <div id='about'>
-and on this website i post about my life and i post my youtube videos and more i also post games as well.
-	I have a little suprise for you all as well.
+Zeke Taylor is an American actor, social media star, and former model. Zeke was born on December 29, 2005. He is best known for making cringy YouTube videos and doing hilariously embarrassing satire. Some is known works include Merman Academy(2015-2018), and NicheZeke(2014-present) starring in over 60 episodes. He recently just came out with a new comedy series titled, Lucid Nonsense(2019-present), that recently aired on June 19th, 2019.
 	</div>
 	<div id='Blog'>
 		<h2>Blog</h2>
