@@ -8,7 +8,7 @@
 	
 }
 #navigation_bar {
-	background-color:yellow;
+	background-color:gold;
 	padding:0.3px;
 	color: #f03300;
 	font-weight: bold;
@@ -29,8 +29,8 @@ h1, h2, h3{
 	margin-bottom: 0;
 }
 h2{
-	color: purple;
-	background-color: green;
+	color: gold;
+	background-color: violet;
 	border-radius: 25px;
 	border-left: 2px outset red;
 }
@@ -44,7 +44,7 @@ p{
     max-width: 720px;
     padding: 20px;
     margin: auto;
-	background-color:cyan;
+	background-color: violet;
 }
 
 
