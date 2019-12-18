@@ -1,16 +1,16 @@
  body{
    
-	background-color:maroon;
+	background-color:white;
 }
 #about{
-	background-color:yellow;
+	background-color:gray;
 	padding:20px;
 	
 }
 #navigation_bar {
-	background-color:gold;
+	background-color:black;
 	padding:0.3px;
-	color: #f03300;
+	color: white;
 	font-weight: bold;
 }
    .ui-widget-header,.ui-state-default, ui-button {
@@ -19,8 +19,9 @@
             color: #FFFFFF;
             font-weight: bold;
          }
+
 #foot{
-width:50px;
+        width:50px;
 	height:50px;
 }
 
@@ -29,8 +30,7 @@ h1, h2, h3{
 	margin-bottom: 0;
 }
 h2{
-	color: gold;
-	background-color: violet;
+	color: black;
 	border-radius: 25px;
 	border-left: 2px outset red;
 }
@@ -44,7 +44,7 @@ p{
     max-width: 720px;
     padding: 20px;
     margin: auto;
-	background-color: maroon;
+    background-color: darkgrey;
 }
 
 
@@ -63,15 +63,4 @@ table{
     font-weight: 600;
     margin: 0;
 }
-button#rand_activity{
-	background-color:olive;
-	color:pink;
-	border-radius:10px;
-	border-color:orange;
-}
-button#rand_activity:hover{
-	background:black;
-	color:white;
-	text-content:"DEATH";
-	padding:150px;
-}
+
