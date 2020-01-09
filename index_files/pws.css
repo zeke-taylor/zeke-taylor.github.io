@@ -1,9 +1,10 @@
  body{
    
-	background-color:white;
+	background-color:grey;
+	color: black;
 }
 #about{
-	background-color:gray;
+	background-color:darkgray;
 	padding:20px;
 	
 }
