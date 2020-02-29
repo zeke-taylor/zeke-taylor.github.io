@@ -10,5 +10,5 @@ function getAge(DOB) {
         age = age - 1;
     }
 
-    document.getElementById("age").innerHTML = "<span>"+age+"</span>";
+    document.getElementById("age").innerHTML = ""+age+"";
 }
