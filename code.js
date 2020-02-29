@@ -1,7 +1,7 @@
 var date = new Date();
 document.write("<center><p class=\"lead\" style=\"color:#3f3f3f;\">&copy; " + date.getFullYear() + "</p></center>");
 var h;
-h = document.createElement("span");
+
 function getAge(DOB) {
     var today = new Date();
     var birthDate = new Date(DOB);
@@ -11,6 +11,6 @@ function getAge(DOB) {
         age = age - 1;
     }
 
-    h.innerHTML = age;
-    
+    h = document.createTextNode(age);
+    document.getElementById("age").appendChild(h);
 }
