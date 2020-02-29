@@ -10,5 +10,5 @@ function getAge(DOB) {
         age = age - 1;
     }
 
-    document.write(age);
+    document.write("<span>"+age+"</span>");
 }
