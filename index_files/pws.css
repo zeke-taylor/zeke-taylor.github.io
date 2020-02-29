@@ -3,42 +3,13 @@
 	background-color:grey;
 	color: black;
 }
-#about{
-	background-color:darkgray;
-	padding:20px;
-	
-}
-#navigation_bar {
-	background-color:black;
-	padding:0.3px;
-	color: white;
-	font-weight: bold;
-}
+
    .ui-widget-header,.ui-state-default, ui-button {
             background:#b9cd6d;
             border: 1px solid #b9cd6d;
             color: #FFFFFF;
             font-weight: bold;
          }
-
-#foot{
-        width:50px;
-	height:50px;
-}
-
-h1, h2, h3{
-	font-weight: 500;
-	margin-bottom: 0;
-}
-h2{
-	color: black;
-	border-radius: 25px;
-	border-left: 2px outset red;
-}
-p{
-	margin: 1em 60px;
-	line-height: 1.5em;
-}
 
 
 #container{
@@ -53,10 +24,12 @@ p{
     padding: 28px;
     text-align: center;
 }
+
 table{
 	width:500px;
 	height:500px;
 }
+
 #header h1{
     font-family: Inconsolata, monospace;
     line-height: 1em;
