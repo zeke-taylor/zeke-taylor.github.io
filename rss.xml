@@ -6,12 +6,6 @@
     <link>https://zeke-taylor.github.io</link>
     <description />
     <item>
-      <guid>https://zeke-taylor.github.io/</guid>
-      <title>Zeke Taylor</title>
-      <link>https://zeke-taylor.github.io/</link>
-      <description>Zeke Taylor is an American actor, internet personality and computer programmer.</description>
-    </item>
-    <item>
       <guid>https://zeke-taylor.github.io/index.html</guid>
       <title>Zeke Taylor</title>
       <link>https://zeke-taylor.github.io/index.html</link>
@@ -19,12 +13,12 @@
     </item>
     <item>
       <guid>https://zeke-taylor.github.io/about.html</guid>
-      <title>Zeke Taylor - About</title>
+      <title> Zeke Taylor - Biography</title>
       <link>https://zeke-taylor.github.io/about.html</link>
       <description>Zeke Taylor (born December 29, 2005) is an American actor, internet personality, and computer programmer
 	He is best known for his comedic Youtube videos which include his skits and satirical acting.</description>
     </item>
   </channel>
 </rss>
-<!--<guid value="345a3763-9d55-48fa-b904-0c04b631f77e" />-->
+<!--<guid value="38e01296-7286-476c-8232-0b0826fdde53" />-->
 <!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
