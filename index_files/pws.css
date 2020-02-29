@@ -1,6 +1,5 @@
 body {
  background-color: #262626;
- color: #dcdcdc;
 }
 
 .ui-widget-header,.ui-state-default, ui-button {
@@ -27,6 +26,7 @@ body {
 table{
 	width:500px;
 	height:500px;
+	color:#dcdcdc;
 }
 
 #header h1{
