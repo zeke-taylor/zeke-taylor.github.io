@@ -2,6 +2,10 @@ body {
  background-color: #262626;
 }
 
+p#bio {
+  color:#dcdcdc;
+}
+
 .ui-widget-header,.ui-state-default, ui-button {
             background:#b9cd6d;
             border: 1px solid #b9cd6d;
@@ -26,7 +30,6 @@ body {
 table{
 	width:500px;
 	height:500px;
-	color:#dcdcdc;
 }
 
 #header h1{
