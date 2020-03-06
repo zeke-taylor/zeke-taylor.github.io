@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Allow: /sitemap.htm
-Sitemap: https://zeke-taylor.github.io/sitemap.xml
