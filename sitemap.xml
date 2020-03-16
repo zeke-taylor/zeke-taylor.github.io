@@ -6,12 +6,8 @@
     <changefreq>always</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://zeke-taylor.github.io/wp-content/uploads/2018/07/tunf.png</image:loc>
-      <image:caption />
-    </image:image>
-    <image:image>
       <image:loc>https://zeke-taylor.github.io/img/25850733.jpeg</image:loc>
-      <image:caption />
+      <image:title>Image of Zeke Taylor</image:title>
     </image:image>
   </url>
   <url>
@@ -20,5 +16,5 @@
     <priority>1.0</priority>
   </url>
 </urlset>
-<!--<guid value="5568e603-5524-4ada-94da-730b89944d4a" />-->
+<!--<guid value="dbb2a925-8d89-4f34-a9c9-30b4f61871c7" />-->
 <!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
