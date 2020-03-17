@@ -3,6 +3,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://zeke-taylor.github.io/</loc>
+    <lastmod>2020-03-17</lastmod>
     <changefreq>always</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -11,12 +12,18 @@
     </image:image>
   </url>
   <url>
-    <loc>https://zeke-taylor.github.io/about.html</loc>
+    <loc>https://zeke-taylor.github.io/biography.html</loc>
+    <lastmod>2020-03-17</lastmod>
     <changefreq>always</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://zeke-taylor.github.io/img/25850733.jpeg</image:loc>
+      <image:caption />
+    </image:image>
   </url>
   <url>
     <loc>https://zeke-taylor.github.io/</loc>
+    <lastmod>2020-03-17</lastmod>
     <changefreq>always</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -25,5 +32,5 @@
     </image:image>
   </url>
 </urlset>
-<!--<guid value="e61a6ddc-74c9-46f2-aa62-3ee16bca9880" />-->
+<!--<guid value="b92816e3-7691-4ee5-8105-2fc23a7180b6" />-->
 <!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
