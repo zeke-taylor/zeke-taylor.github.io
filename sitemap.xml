@@ -3,7 +3,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://zeke-taylor.github.io/</loc>
-    <lastmod>2020-04-04</lastmod>
+    <lastmod>2020-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -12,18 +12,14 @@
     </image:image>
   </url>
   <url>
-    <loc>https://zeke-taylor.github.io/</loc>
-    <lastmod>2020-04-04</lastmod>
+    <loc>https://zeke-taylor.github.io/filmography.html</loc>
+    <lastmod>2020-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://zeke-taylor.github.io/25850733.jpeg</image:loc>
-      <image:title>Picture of Zeke Taylor, Actor</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://zeke-taylor.github.io/biography.html</loc>
-    <lastmod>2020-04-04</lastmod>
+    <lastmod>2020-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
