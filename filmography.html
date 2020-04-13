@@ -7,13 +7,12 @@
 <title>Filmography</title>
 <meta name="title" content="Filmography">
 <meta name="description" content="Zeke Taylor | movies and tv shows: NicheZeke (2013), Merman Academy (2015), Theories with Zeke (2019), Lucid Nonsense (2019), The Witches (2020)">
-<meta name="keywords" content="actor movies and tv shows, actor, actors, actor and actresses roles, film actor, movie actor, tv actor, actor credits, Zeke Taylor movies and shows, Zeke actor">
+<meta name="keywords" content="actor movies and tv shows, actor, actors, actor and actresses roles, film actor, movie actor, tv actor, actor credits, Zeke Taylor movies and shows, Zeke actor, Zeke Taylor filmography, Zeke Taylor actor filmography, actor filmography, merman youtube, merman actor, Zeke Taylor actor, Zeke Taylor actor movies and tv shows">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	
 <meta name="og:title" content="Filmography">
 <meta name="og:site_name" content="Zeke Taylor">
 <meta name="og:description" content="Zeke Taylor | movies and tv shows: NicheZeke (2013), Merman Academy (2015, Theories with Zeke (2019), Lucid Nonsense (2019), The Witches (2020)">
-
-
 <link rel="canonical" href="https://zeke-taylor.github.io/filmography">
 
   	<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
@@ -29,7 +28,7 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="shorcut icon" type="image/x-icon" href="favicon.ico">
 	<meta name="msapplication-TileColor" content="#696969">
 	<meta name="msapplication-TileImage" content="ms-icon-144x144.png">
 	<meta name="theme-color" content="#696969">
@@ -60,13 +59,7 @@ p#bio {
 }
 
 
-#header{
-    padding: 28px;
-    text-align: center;
-}
-
-
-#header h1{
+header > h1{
     font-family: Inconsolata, monospace;
     line-height: 1em;
     font-size: 3em;
@@ -78,13 +71,14 @@ hr {
 border: 2px solid #696969;
 border-radius: 1.9px;
 }
+
 </style>
 </head>
 <body>
 
 <div class="container" style="margin-bottom:0;">
 <header>
-<h1 class="text-light"><center>Zeke Taylor &middot; Filmography</center></h1>
+<h1 class="text-light display-1"><center>Zeke Taylor &middot; Filmography</center></h1>
 </header>
 </div>
 
@@ -94,7 +88,7 @@ border-radius: 1.9px;
       <a class="nav-link" href="index.html">Home</a>
     </li>
     <li class="nav-item">
-	    <a class="nav-link" href="biography.html">Biography</a>
+	 <a class="nav-link" href="biography.html">Biography</a>
     </li>
     <li class="nav-item">
     <a class="nav-link" href="filmography.html">Filmography <small class="sr-only">(current)</small></a>
@@ -103,12 +97,39 @@ border-radius: 1.9px;
 </nav>
 <hr/>
 
-<div id="maincontent">
 <div class="container text-light">
-<p id="overview" class="lead"> 
-<strong>Zeke Taylor is an actor</strong> and has been in <a href="https://www.imdb.com/title/tt10403508/" title="Merman Academy (TV Series 2015-2018)"><b>Merman Academy (2015)</b></a>, <a href="https://www.imdb.com/title/tt10464316/" title="NicheZeke (TV Series 2013-)"><b>NicheZeke (2013)</b></a>, <a href="https://www.imdb.com/title/tt10544230/" title="Theories with Zeke (TV Series 2019-)"><b>Theories with Zeke (2019)</b></a>, <a href="https://www.imdb.com/title/tt10510114/" title="Lucid Nonsense (TV Series 2019-)"><b>Lucid Nonsense (2019)</b></a> and <a href="https://en.wikipedia.org/wiki/The_Witches_(2020_film)" title="The Witches (2020 Film)"><b>The Witches (2020)</b></a>
+<p id="description" class="lead"> 
+Zeke Taylor has starred in <strong><a href="https://www.imdb.com/title/tt10403508/" title="Merman Academy (TV Series 2015-2018)">Merman Academy (2015)</a>, <a href="https://www.imdb.com/title/tt10464316/" title="NicheZeke (TV Series 2013-)">NicheZeke (2013)</a>, <a href="https://www.imdb.com/title/tt10544230/" title="Theories with Zeke (TV Series 2019-)">Theories with Zeke (2019)</a>, <a href="https://www.imdb.com/title/tt10510114/" title="Lucid Nonsense (TV Series 2019-)">Lucid Nonsense (2019)</a> and <a href="https://en.wikipedia.org/wiki/The_Witches_(2020_film)" title="The Witches (2020 Film)">The Witches (2020)</a></strong>
 </p>
 </div>
+
+<div id="maincontent" class="container">
+	<h1 class="display-1">Merman Academy</h1>
+	<div id="merman-academy">
+		<hr/>
+		<p id="summary" class="lead">
+			<b><em>Merman Academy</em></b> follows a young boy, <b>Jaden Newman</b>, who finds out that he is a merman and that there is a whole world of magic. Go on and watch Jaden as he and his friends go on dangerous adventures.
+		</p>
+	</div>
 </div>
+	
+<footer>
+<script>
+var date = new Date();
+document.write("<center><p class=\"lead\" style=\"color:#3f3f3f;\">&copy; " + date.getFullYear() + "</p></center>");
+
+function getAge(DOB) {
+    var today = new Date();
+    var birthDate = new Date(DOB);
+    var age = today.getFullYear() - birthDate.getFullYear();
+    var m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        age = age - 1;
+    }
+
+    document.getElementById("age").innerHTML = ""+age+"";
+}
+</script>
+</footer>
 </body>
 </html>
