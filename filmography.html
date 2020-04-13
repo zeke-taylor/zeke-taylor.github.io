@@ -65,7 +65,12 @@ border-radius: 1.9px;
 }
 
 footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
 background-color: grey;
+text-align: center;
 }
 </style>
 </head>
@@ -73,7 +78,7 @@ background-color: grey;
 
 <div class="container" style="margin-bottom:0;">
 <header>
-<h1 class="text-light display-2"><center>Zeke Taylor &middot; Filmography</center></h1>
+<h1 class="text-light display-4"><center>Zeke Taylor &middot; Filmography</center></h1>
 </header>
 </div>
 
@@ -99,7 +104,7 @@ Zeke Taylor has starred in <strong><a href="https://www.imdb.com/title/tt1040350
 </div>
 
 <div id="maincontent" class="container">
-	<h1 class="display-3" style="color:#696969">Merman Academy</h1>
+	<h2 class="display-4" style="color:#696969">Merman Academy</h2>
 	<div id="merman-academy" class="container text-light">
 		<hr/>
 		<p id="summary" class="lead">
@@ -111,7 +116,7 @@ Zeke Taylor has starred in <strong><a href="https://www.imdb.com/title/tt1040350
 <footer>
 <script>
 var date = new Date();
-document.write("<center><p class=\"lead\" style=\"color:#3f3f3f;\">&copy; " + date.getFullYear() + "</p></center>");
+document.write("<p class=\"lead\" style=\"color:#3f3f3f;\">&copy; " + date.getFullYear() + "</p>");
 
 function getAge(DOB) {
     var today = new Date();
