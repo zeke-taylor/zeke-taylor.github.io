@@ -8,7 +8,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://zeke-taylor.github.io/biography.html</loc>
+    <loc>https://zeke-taylor.github.io/biography</loc>
     <lastmod>2020-04-13</lastmod>
     <changefreq>always</changefreq>
     <priority>1.0</priority>
@@ -16,12 +16,6 @@
       <image:loc>https://zeke-taylor.github.io/IMG_20200101_221853_739.jpg</image:loc>
       <image:title>Picture of Zeke Taylor the american actor and internet personality</image:title>
     </image:image>
-  </url>
-  <url>
-    <loc>https://zeke-taylor.github.io/</loc>
-    <lastmod>2020-04-13</lastmod>
-    <changefreq>always</changefreq>
-    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://zeke-taylor.github.io/filmography</loc>
