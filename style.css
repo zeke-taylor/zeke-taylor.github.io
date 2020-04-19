@@ -30,3 +30,7 @@ footer {
 background-color: grey;
 opacity: 0.4;
 }
+
+div < header < h1 {
+ text-align: center;
+}
