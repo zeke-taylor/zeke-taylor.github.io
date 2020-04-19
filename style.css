@@ -1,0 +1,32 @@
+body {
+ background-color: #262626;
+}
+
+p#bio {
+  color:#dcdcdc;
+}
+
+.ui-widget-header,.ui-state-default, ui-button {
+            background:#b9cd6d;
+            border: 1px solid #b9cd6d;
+            color: #FFFFFF;
+            font-weight: bold;
+}
+
+#container{
+    max-width: 720px;
+    padding: 20px;
+    margin: auto;
+    background-color: darkgrey;
+}
+
+
+hr {
+border: 2px solid #696969;
+border-radius: 1.9px;
+}
+
+footer {
+background-color: grey;
+opacity: 0.4;
+}
