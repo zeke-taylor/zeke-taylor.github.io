@@ -1,5 +1,5 @@
 var date = new Date();
-document.write("<p class=\"lead\" style=\"color:#3f3f3f;\">&copy; " + date.getFullYear() + "</p>");
+document.write("<p class=\"lead text-center\" style=\"color:#efef3f;\">&copy; " + date.getFullYear() + "</p>");
 
 function getAge(DOB) {
     var today = new Date();
