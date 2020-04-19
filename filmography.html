@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en_US">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="Content-Type" content="text/html">
@@ -18,9 +18,8 @@
 <link rel="canonical" href="https://zeke-taylor.github.io/filmography">
 
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
-	
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -60,22 +59,7 @@ Zeke Taylor has starred in <strong><a href="https://www.imdb.com/title/tt1040350
 	</div>
 	
 <footer>
-<script>
-var date = new Date();
-document.write("<p class=\"lead\" style=\"color:#3f3f3f;\">&copy; " + date.getFullYear() + "</p>");
-
-function getAge(DOB) {
-    var today = new Date();
-    var birthDate = new Date(DOB);
-    var age = today.getFullYear() - birthDate.getFullYear();
-    var m = today.getMonth() - birthDate.getMonth();
-    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-        age = age - 1;
-    }
-
-    document.getElementById("age").innerHTML = ""+age+"";
-}
-</script>
+	<script src="script.js"></script>
 </footer>
 </body>
 </html>
