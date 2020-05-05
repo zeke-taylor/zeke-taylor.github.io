@@ -29,6 +29,6 @@ footer {
 clear: both;
 background-color: grey;
 opacity: 0.4;
-position: absolute;
+position: relative;
 margin-top: 100px;
 }
