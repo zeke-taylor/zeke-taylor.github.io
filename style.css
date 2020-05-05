@@ -26,6 +26,7 @@ border-radius: 1.9px;
 }
 
 footer {
+clear: both;
 background-color: grey;
 opacity: 0.4;
 position: relative;
