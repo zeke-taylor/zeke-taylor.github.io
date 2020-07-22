@@ -1,5 +1,7 @@
 var date = new Date();
-document.write("<p class=\"footer-copyright text-center\" style=\"color:#efef3f;\">&copy; " + date.getFullYear() + "</p>");
+var cdat = document.createElement("p");
+cdat.innerHTML = "<p class=\"footer-copyright text-center\" style=\"color:#efef3f;\">&copy; " + date.getFullYear() + "</p>"
+document.body.appendChild(cdat);
 
 function getAge(DOB) {
     var today = new Date();
