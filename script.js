@@ -1,7 +1,7 @@
 var date = new Date();
 var cdat = document.createElement("p");
-cdat.innerHTML = "<p class=\"footer-copyright text-center\" style=\"color:#efef3f;\">&copy; " + date.getFullYear() + "</p>"
-document.body.appendChild(cdat);
+cdat.innerHTML = "<p class=\"footer-copyright text-center\" style=\"color:#efef3f;\">&copy; " + date.getFullYear() + "</p>";
+document.getElementByTagName("footer").appendChild(cdat);
 
 /*
 function getAge(DOB) {
