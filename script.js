@@ -1,12 +1,9 @@
 var date = new Date();
-var cdat = document.createElement("p");
-var tn = document.createTextNode("&copy; ");
-cdat.appendChild(tn);
-cdat.style.color = "#efef3f";
+var cdat = document.getElementById("cright");
 cdat.classList.add("footer-copyright");
 cdat.classList.add("text-center");
-cdat.innerHTML = "&copy; " + date.getFullYear();
-document.getElementsByTagName("footer").appendChild(cdat);
+cdat.style.color = "#efef3f";
+cdat.innerHTML = `&copy; ${date.getFullYear()}`;
 
 /*
 function getAge(DOB) {
