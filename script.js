@@ -1,6 +1,11 @@
 var date = new Date();
 var cdat = document.createElement("p");
-cdat.innerHTML = "<p class=\"footer-copyright text-center\" style=\"color:#efef3f;\">&copy; " + date.getFullYear() + "</p>";
+var tn = document.createTextNode("&copy; " + date.getFullYear);
+cdat.appendChild(tn);
+cdat.style.color = "#efef3f";
+cdat.classList.add("footer-copyright");
+cdat.classList.add("text-center");
+
 document.getElementsByTagName("footer").appendChild(cdat);
 
 /*
