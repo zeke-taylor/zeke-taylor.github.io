@@ -8,7 +8,7 @@ p#dsc {
 
 .ui-widget-header,.ui-state-default, ui-button {
     background:#b9cd6d;
-    border: 1px solid #b9cd6d;
+    border: 2px solid #b9ce6d;
     color: #FFFFFF;
     font-weight: bold;
 }
@@ -46,7 +46,7 @@ div.header {
 }
 
 div#table-of-cont {
- background-color: goldenrodyellow;
+ background-color: goldenrod;
  list-style: none;
  outline: 0.3rem double khaki;
  font-family: Times, Times New Roman, Georgia, serif;
