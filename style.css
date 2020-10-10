@@ -48,7 +48,7 @@ div.header {
 div#table-of-cont {
  outline: 0.3rem double khaki;
  font-family: Times, Times New Roman, Georgia, serif;
- margin: 1px 1px 1px 1px;
+ margin: 1px 1em 1px auto;
 }
 
 .row {
