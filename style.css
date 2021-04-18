@@ -104,3 +104,8 @@ a:active {
     width: 100%;
   }
 }
+
+h3 {
+ font-weight: light;
+ color: beige;
+}
