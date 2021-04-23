@@ -110,7 +110,7 @@ h3 {
  color: beige;
 }
 
-p.wc > a:link {
+p.wc > script {
  color: gold;
  text-decoration: none;
 }
