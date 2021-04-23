@@ -109,3 +109,7 @@ h3 {
  font-weight: light;
  color: beige;
 }
+
+p.wc > a {
+ color: gold;
+}
